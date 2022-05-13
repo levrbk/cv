@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(16, 16, 16);
+    color: rgb(0, 0, 0);
+
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, 25);
+}
+
+.info p {
+    color: rgb(0, 0, 0);
+    /*margin: none;
+    font-style: none;
+    font-weight: none;
+    text-decoration: none;
+    text-transform: uppercase;*/
+    word-spacing: 2px;
+    display: flex;
+    
+}
+
+.social {
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    border: 1px solid rgb(154, 149, 149);
+    margin: 0px;
+}
+
+
+.container {
+    max-width: 750px;
+}
+
+.hobbies {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid rgb(154, 149, 149);
+    margin: 0px;
+}
+
+.proects {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid rgb(154, 149, 149);
+    margin: 0px;
+}
+
+a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+    color: aqua;
+}
+
+a:visited {
+    color: gray
+    ;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: black
+;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+    padding: 1px;
+}
+
+.bg-blue {
+    background: skyblue;
+    padding-top: 1px    ;
+}
+
+.bg-orange {
+    background: rgb(251, 212, 139);
+}
+
+.bg-dark-blue {
+    background: rgb(131, 131, 251);
+}
+
+.bg-purple {
+    background: rgb(255, 255, 255);
+}
+
+.about {
+    color: rgb(0, 0, 0);
+    padding: 4px
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+
+}
+
+.list li {
+    color:  #86898f;
+    margin-bottom: 10px;
+}
+
+.bg-blue {
+    width: 100%;
+}
+
+.bg-blue td {
+    padding-bottom: 10px;
+}
+
+.bg-purple h2 {
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    font-size: 14px;
+    color: #0b0a0a;
+}
+
+.form input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    outline: black;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    background-color: #111;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    }
+
+    .btn:hover {
+        opacity: 0.9;
+    }
+
+    .send {
+        width: 700px;
+        height:  150px;
+    }
