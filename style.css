@@ -10,7 +10,7 @@ body {
 }
 
 #avatar {
-    width: 200px;
+    width: 230px;
     border-radius: 28px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0, 25);
 }
@@ -29,7 +29,7 @@ body {
 
 .social {
     color: rgb(0, 0, 0);
-    padding: 4px;
+    padding: 1px;
     border: 1px solid rgb(154, 149, 149);
     margin: 0px;
 }
@@ -52,12 +52,12 @@ body {
 }
 
 a {
-    color: chartreuse;
-    text-decoration: none;
+    color: rgb(0, 98, 255);
+    text-decoration: underline;
 }
 
 a:hover {
-text-decoration: underline;
+text-decoration: blue;
 }
 
 a:active {
@@ -65,8 +65,7 @@ a:active {
 }
 
 a:visited {
-    color: gray
-    ;
+    color: rgb(171, 0, 206)
 }
 
 .card {
@@ -78,17 +77,27 @@ a:visited {
 }
 
 .bg-yellow {
-    background: #fff9dc;
+    background: #ffd500;
+    margin: 4px;
+    padding: 1px 5px 19px 20px;
+    word-spacing: 1px;
 }
 
 .bg-green {
-    background: #e5ffe7;
+    background: #7cff87;
+}
+
+.bg-green li {
+    color: black;
 }
 
 .bg-red {
-    background: #ffe5e5;
+    background: #f64d4d;
     padding: 1px;
+    color: rgb(0, 0, 0);
+;
 }
+
 
 .bg-blue {
     background: skyblue;
@@ -96,7 +105,7 @@ a:visited {
 }
 
 .bg-orange {
-    background: rgb(251, 212, 139);
+    background: rgb(255, 128, 0);
 }
 
 .bg-dark-blue {
